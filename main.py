@@ -6,6 +6,7 @@ app = FastAPI(title="Employee Information")
 
 
 
+
 def get_db():
     db = database.SessionLocal()
     try:
